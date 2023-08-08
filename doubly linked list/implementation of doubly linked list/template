@@ -1,0 +1,15 @@
+#include "headers.h"
+#include "declarations.h"
+
+int add_node()
+{
+    #ifdef PRINT
+    printf("========Enter function : %s ==========\n",__func__);
+    #endif 
+
+    #ifdef PRINT
+    printf("========Exit function : %s ==========\n",__func__);
+    #endif 
+
+    return 0;
+}
